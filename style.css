@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+}
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #002233, #000000);
+  color: #00ffff;
+  border-bottom: 3px solid #00d9ff;
+}
+h1 {
+  font-size: 3em;
+  color: #00ffff;
+  text-shadow: 0 0 5px #00f0ff, 0 0 15px #00f0ff;
+}
+.catalogo {
+  padding: 40px 20px;
+  background: #111;
+  color: #ffd700;
+}
+.catalogo h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.productos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.producto {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 0 10px #00ffff44;
+}
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+}
+.producto h3 {
+  color: #00f0ff;
+}
+.contacto {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #000814;
+}
+.contacto a.whatsapp {
+  background: #00ffcc;
+  color: #000;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+.contacto a.whatsapp:hover {
+  background: #00bfa6;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #001122;
+  color: #888;
+}
